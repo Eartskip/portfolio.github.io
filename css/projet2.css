@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #1B1B1B;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    margin: 0px 25px 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #4C64FF;
+
+}
+
+.navlinks .links {
+    padding: 20px;
+}
+
+
+
+#about {
+    text-decoration: underline;
+    margin: 0px 25px 70px 150px;
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+.works-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cv {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    background-color: white;
+    cursor: pointer;
+    width: 330px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 40px 25px 100px 225px;
+}
+
+.cv:hover {
+    background-color: #4C64FF;
+    color: white;
+}
+
+.cadre {
+    background-color: #4C64FF;
+    border: solid 10px;
+    border-radius: 50px;
+    padding: 50px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 100px 0px 100px 150px;
+    width: 70%;
+}
+
+.cadre1 {
+    border: solid 10px;
+    border-radius: 50px;
+    width: 500px;
+    height: 600px;
+    color: white;
+    display: flex;
+    margin: 0px 150px 0px 0px;
+}
+
+.name1 {
+    background-color: #4C64FF;
+    border-radius: 50px;
+    padding: 20px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.name {
+    background-color: #4C64FF;
+    border-radius: 50px;
+    padding: 20px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.name:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #000000;
+}
+
+.container-card {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.foot {
+    background-color: white;
+    position: relative;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.foot span {
+    position: absolute;
+    bottom: 0;
+    margin: 15px auto;
+    color: black;
+}
+
+.namelist {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
+    width: 100%;
+}
+
+.list {
+    transition-duration: 1s;
+    margin: 0 10% 0 10%;
+}
+
+.box5 {
+    width: 75%;
+    margin: 0 0 0 0;
+}
+
+.img-foot {
+    width: 80px;
+    transform-origin: center;
+    transition-duration: 1s;
+    color: black;
+}
+
+.img-foot:hover {
+    transform: rotate(360deg);
+}
+
+.copyright {
+    color: black;
+}
+
+.copyright:hover {
+    color: #4C64FF;
+}
+
+.mail {
+    width: 80px;
+    transform-origin: center;
+    transition-duration: 1s;
+    color: black;
+    height: 80px;
+
+    &:hover {
+        transform: rotate(360deg);
+    }
+}
+
+
+.arrow-up-outline {
+    width: 50px;
+    height: 50px;
+}
+
+.ri-arrow-up-line {
+    font-size: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    transition: transform .5s;
+}
+
+.ri-arrow-up-line:hover {
+    cursor: pointer;
+    color: #4C64FF;
+    transform: scale(1.5);
+}
+
+.logo2 {
+    width: 120px;
+    height: 120px;
+    color: #fff;
+}
+
+.logo1 {
+    margin-top: 0px;
+    margin-bottom: 230px;
+    display: flex;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
+    width: 100%;
+}
+
+
+
+.html1 {
+    width: 120px;
+    height: 120px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.arrow-bottom {
+    color: #1B1B1B;
+}
+
+/* wrapper */
+
+.wrapper {
+    display: block;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 150px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper .icon {
+    position: relative;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.wrapper .icon:hover section,
+.wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .ID:hover,
+.wrapper .ID:hover .tooltip,
+.wrapper .ID:hover .tooltip::before {
+    background: #ffffff;
+    color: #1b1b1b;
+}
+
+.wrapper .PS:hover,
+.wrapper .PS:hover .tooltip,
+.wrapper .PS:hover .tooltip::before {
+    background: #ffffff;
+    color: #1b1b1b;
+}
+
+.wrapper .IL:hover,
+.wrapper .IL:hover .tooltip,
+.wrapper .IL:hover .tooltip::before {
+    background: #ffffff;
+    color: #1b1b1b;
+}
+
+
+
+
+
+h2 {
+    display: none;
+}
+
+h3 {
+    font-size: 44px;
+    margin: 0 0 20px;
+    line-height: 1.4;
+}
+
+.logo2 {
+    width: 120px;
+    height: 120px;
+    color: #fff;
+}
+
+.lien {
+    cursor: pointer;
+    color: white;
+}
+
+.lien:hover {
+    color: #1B1B1B;
+}
+
+.maquette {
+    border-radius: 30px;
+    width: 500px;
+    height: 600px;
+}
